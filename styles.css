@@ -3,19 +3,20 @@
     padding: 0;
 }
 .navbar{
-    display: inline-block;
+    display: flex;
     background-color: #ffcccc;
-    padding: 0.7vw;
+    padding: 0.6vw;
     width: 100%;
+    margin: auto; 
 }
 .logo{
-    display: inline-block;
+    flex: 1;
     width: 50vw;
 }
 .navbar img{
     margin-left:10%;
-    display: inline-block;
-    width: 8vw;
+    flex: 2;
+    width: 10vw;
 
 }
 .righticons{
@@ -42,27 +43,45 @@ margin-left: 25%;
 margin-right: 25%;
 background-color: white;
 position: relative;
-text-align: center;
+padding: 10px;
 }
 
 .imagehead{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    box-shadow: #ffcccc;
 }
 .img1{
-   display: inline-block;
+   flex: 2;
+   order: 1;
    position: relative;
    text-align: center;
+   width: 75%;
+
 }
 .img1text{
         position: absolute;
         top: 30%;
         left: 50%;
-        background-color: black;
+        font-weight: bolder;
+        background-color: white;
         opacity: 60% ;
-        color:white;
+        color:black;
 }
-/* .img2text{
-    position: absolute;
-    top: 12vw;
-    right: 2vw;
-} */
+.img2{
+    
+    flex: 1;
+    order: 2;
+    position: relative;
+    text-align: center;
+    width: 25%;
+ }
+
+ .img2text{
+         position: absolute;
+         top: 73%;
+         font-weight: bolder;
+         background-color: white;
+         opacity: 60% ;
+         color:black;
+ }
