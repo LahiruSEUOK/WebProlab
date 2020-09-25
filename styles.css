@@ -104,8 +104,13 @@ padding: 10px;
      
  }
 
- .itemimgs img {
+ .itemimgs{
+     
+ }
+
+ .itemimgs .imgr img {
      width: 75%;
+     height: 200px;
 
  }
 
@@ -115,12 +120,31 @@ padding: 10px;
      color: brown;
  }
 
- .text h2{
-     
+.imgbottom{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+    justify-items: left;
+}
+ .imgbottom  h2{
      background-color: brown;
      border-radius: 50%;
      color: white;
-     width: 1.9vw; 
+     width: 1.7vw; 
      height: 2vw;
      text-align: center;
  }
+ .imgbottom  img {
+     width: 100%;
+     position: relative;
+     text-align: center;
+     }
+    
+.imgbottom .img .txtonarrow{
+    position: relative;
+    color: white;
+    font-size: large;
+    top: -26px;
+    left: 35px;
+
+}
