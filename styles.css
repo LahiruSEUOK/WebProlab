@@ -17,7 +17,6 @@
     margin-left:10%;
     flex: 2;
     width: 10vw;
-
 }
 .righticons{
     float: right;
@@ -43,7 +42,7 @@ width: 70%;
 margin: 0 auto;
 background-color: white;
 position: relative;
-padding: 10px;
+padding: 20px;
 }
 
 .imagehead{
@@ -60,12 +59,12 @@ padding: 10px;
 
 }
 .img1text{
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        font-weight: bolder;
-        background-color: white;
-        opacity: 60% ;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-weight: bolder;
+    background-color: white;
+    opacity: 60% ;
         color:black;
 }
 .img2{
@@ -79,7 +78,7 @@ padding: 10px;
 
  .img2text{
          position: absolute;
-         top: 73%;
+         top: 83%;
          font-weight: bolder;
          background-color: white;
          opacity: 60% ;
@@ -104,10 +103,6 @@ padding: 10px;
      
  }
 
- .itemimgs{
-     
- }
-
  .itemimgs .imgr img {
      width: 75%;
      height: 200px;
@@ -117,7 +112,7 @@ padding: 10px;
  .text{
      display: flex;
      flex-direction: column;
-     color: brown;
+     color: rgb(84, 71, 27);
  }
 
 .imgbottom{
@@ -146,5 +141,125 @@ padding: 10px;
     font-size: large;
     top: -26px;
     left: 35px;
+}
 
+.smilemain{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.smilemain .imgpart input[type="radio"]{
+     padding: 20px 12px;
+     border: 2px gray solid;
+}
+
+.smilemain .textpart i{
+    background-color: black;
+    border-radius: 100%;    
+    color: white;
+    width: 1vw; 
+    height: 1vw;
+    text-align: center;
+    padding: 4px;
+}
+
+.smilemain .imgpart li{
+    border: 2px solid; 
+    padding:0.5vw; 
+    width:20vw;
+    column-gap: 2px;
+}
+
+.checkboxes{
+    padding: 2px;
+    width: 220px;
+    height: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkboxes label{
+    border: 3px solid grey;
+    padding: 0.2vw;
+    border-radius: 0.4vw;
+}
+
+.rightbottom{
+    display: flex;
+}
+
+.right_left{
+    flex: 1;
+    order: 1;
+    margin-right: 5%;
+}
+
+.right_right{
+    flex: 2;
+    order: 2;
+    justify-content:left ;
+}
+
+.contactimg{
+  text-align: center;
+  
+}
+
+.form{
+    text-align: right;
+}
+
+.form input{
+    padding: 0.4vw;
+   
+}
+.form select{
+    width: 32.2vw;
+    padding: 0.4vw;
+}
+.msgbox{
+    display: flex;
+}
+
+.msgbox label{
+    flex: auto;
+    order: 1;
+    margin-right: 0.2vw;
+}
+
+.msgbox textarea{
+    flex: auto;
+    order: 2;
+}
+
+.attachment{
+    display: flex;
+}
+
+.attachment .alable{
+    flex: 2;
+    text-align: right;
+}
+
+.attachment .abutton{
+    flex: 10;
+    width: 25vw;
+    text-align: left;
+    margin-left: 1vw;
+
+}
+.bottomstartbutton{
+    text-align: center;
+}
+.continuebutton{
+ text-align: right;
+ margin-right: 5vw;
+}
+.continuebutton button{
+    background-color: brown;
+    padding: 0.5vw;
+    color: white;
+    border: none;
+    width: 9vw;
+    border-radius: 0.2vw;
 }
